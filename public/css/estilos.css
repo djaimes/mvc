@@ -1,0 +1,101 @@
+/***
+ * estilos.css Contiene todos los estilos para el sistem
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rojo {
+  color: red;
+}
+/* Todo el documento */
+
+html{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 750px;
+  height: 600px;
+  margin: auto;
+}
+
+header{
+  width: 750px;
+  height: 80px;
+}
+
+nav{
+  width: 750px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+
+main{
+  width: 750px;
+  height: 400px;
+}
+
+footer{
+  width: 750px;
+  height: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0;  /* centrado */
+  background-color: RGB(41,42,70);  /* fondo AZUL UAC del menú */
+}
+
+section#logo {
+  width: 100px;
+  height: 80px;
+  float: left;
+}
+
+section#banner {
+  width: 550px;
+  height: 80px;
+  float: left;
+  font-size: 20px;
+
+}
+
+section#login {
+  width: 100px;
+  height: 80px;
+  float: right;
+}
+
+article{
+  width: 750px;
+  height: 400px;
+  float: none;
+  margin: auto;
+  padding: 5px;
+}
+
+#logotipouac{
+  width: 80%;
+}
+
+#perfilusuario{
+  width: 30%;
+  text-align: right;
+  vertical-align: middle;
+  padding: 10px;  /* centrado */
+}
+
+#sistema{
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;  /* centrado */
+}
+
+.divmain {        /* Aquí va el contenido de AJAX */
+  padding: 3px;
+}

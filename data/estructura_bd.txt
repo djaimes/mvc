@@ -1,0 +1,56 @@
+Base de datos:
+
+  host: localhost
+  base de datos: mvcmatricula (mvc60882)
+  user: mvcusuario
+  password: mvc2103
+
+Tablas:
+
+1) profesores
+
+#	Nombre	Tipo		Cotejamiento		       Nulo	Extra
+=============================================================================
+1	id 	int(6)					                    No	AUTO_INCREMENT
+2	nombre	varchar(50)	utf8mb4_general_ci	No
+3	paterno	varchar(50)	utf8mb4_general_ci	No
+4	materno	varchar(50)	utf8mb4_general_ci	No
+
+
+2) alumnos
+
+#	Nombre		Tipo		Cotejamiento		        Nulo	Extra
+================================================================================
+1	id 		int(11)					                    No	AUTO_INCREMENT
+2	nombre		varchar(50)	utf8mb4_general_ci	No
+3	paterno		varchar(50)	utf8mb4_general_ci	No
+4	materno		varchar(50)	utf8mb4_general_ci	No
+5	matricula	varchar(6)	utf8mb4_general_ci	No
+6	promedio	float					                  No
+
+
+3) grupos
+
+#	Nombre		Tipo		Cotejamiento		      Nulo	Extra
+======================================================================================
+1	id 		int(6)					                  No	AUTO_INCREMENT
+2	id_profesor	int(6)					            No
+3	id_alumno	int(6)					              No
+4	grupo		varchar(2)	utf8mb4_general_ci	No
+5	promedio_grupo	float					          No
+
+4) usuario
+
+#	Nombre		Tipo		Cotejamiento		        Nulo	Extra
+======================================================================================
+1	idusuario	int(11)					                  No	AUTO_INCREMENT
+2	login		varchar(12)	    utf8mb4_general_ci	No
+3	contrasena	varchar(10)	utf8mb4_general_ci	No
+4	nombre		varchar(45)	  utf8mb4_general_ci	No
+5	paterno		varchar(45)	  utf8mb4_general_ci	No
+6	materno		varchar(45)	  utf8mb4_general_ci	No
+7	alta		datetime				                    No
+8	codigo		varchar(10)	  utf8mb4_general_ci	No
+9	activo		tinyint(1)				                No
+10	idperfil	int(11)		                      No
+

@@ -1,0 +1,33 @@
+/***
+ * menuh.css Contiene todos los estilos para el menú
+ */
+
+#menu {                  /* contenedor del menu */
+  background-color: RGB(41,42,70);  /* fondo AZUL UAC del menú */
+}
+
+#menu ul{                 /* estilo de la lista desordenada*/
+  list-style: none;       /* quitarle los bullets a las opciones */
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li{               /* estilo para cada opción */
+  display: inline-block;   /* convierte el elemento en bloque, menú horizontal */
+}
+
+#menu ul li a{              /* menú al elemento a */
+  color: white;             /* color de la opción */
+  display: block;           /* hace que el link cubra todo el espacio del li */
+  padding: 12px 30px;       /* hacemos más grande la opción */
+  text-decoration: none;    /* quita el subrayado de los link */
+}
+
+#menu ul li a:hover{           /* color al pasar encima del link */
+  background-color: RGB(255,189,74);    /* color AMARILLO UAC de la opción */
+  color: black;                /* de letra blanca a negra */
+}
+
+.opcionALaDerecha{            /* se aplica al elemento <li> no al <a> */
+  float: right;
+}
