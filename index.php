@@ -2,16 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Control Escolar 1.0</title>
-    <link rel="stylesheet" href="/mvc/public/css/estilos.css">
-    <link rel="stylesheet" href="/mvc/public/css/menuh.css">
+    <title>Control Escolar 1.0 con MVC</title>
+    <link rel="stylesheet" href="./public/css/estilos.css">
+    <link rel="stylesheet" href="./public/css/menuh.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
-    <script src="/mvc/public/js/mvc.js" charset="utf-8"></script>
+    <script src="./public/js/mvc.js" charset="utf-8"></script>
   </head>
   <body>
     <header>
       <section id="logo">
-        <img id="logotipouac" src="/mvc/public/images/escudouacgris.png" alt="Escudo UAC">
+        <img id="logotipouac" src="./public/images/escudouacgris.png" alt="Escudo UAC">
       </section>
       <section id="banner">
         <div id="sistema">
@@ -19,7 +19,7 @@
         </div>
       </section>
       <section id="login">
-        <img id="perfilusuario" src="/mvc/public/images/perfil.png" alt="Perfil">
+        <img id="perfilusuario" src="./public/images/perfil.png" alt="Perfil">
         <img src="" alt="">
         <span id="nombreUsuario">usuario</span>
       </section>

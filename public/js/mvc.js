@@ -74,7 +74,7 @@ function profesores(){
 function consultarProfesor(id){
   $.ajax({
       // Programa que me atenderá en el servidor
-      url: "/mvc/controladores/indexmvc.php",
+      url: "/controladores/indexmvc.php",
 
       // Si la petición tuvo éxito
       success: function(data, textStatus, jqXHR){
@@ -107,7 +107,7 @@ function validarLogin(usuario, contrasena){
 
   $.ajax({
       // Programa que me atenderá en el servidor
-      url: "/mvc/controladores/indexmvc.php",
+      url: "/controladores/indexmvc.php",
 
       // Si la petición tuvo éxito
       success: function(data, textStatus, jqXHR){
